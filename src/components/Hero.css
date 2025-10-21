@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+.card {
+  background: none;
+  border: none;
+}
+
+.hero {
+  background: rgb(247, 143, 179);
+  min-height: 780px;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+  overflow: hidden;
+  /* padding: 80px 0; 🌸 Added vertical padding */
+  font-family: poppins, sans-serif;
+}
+
+/* LEFT TEXT */
+.text-card .card-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+   color: #000; 
+  line-height: 1.2;
+}
+
+.text-card .card-text {
+  /* color: #fff; */
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* BUTTONS */
+.started{
+  background-color: #e84393;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 28px;
+}
+
+
+.started:hover {
+  background: #ffe3ec;
+  transform: translateY(-2px);
+}
+
+.consultation {
+  border: 1px solid #e84393;
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 17px 28px;
+  margin-left: 10px;
+  /* color: #fff; */
+}
+
+.consultation:hover {
+  background: #ff4f88;
+  transform: translateY(-2px);
+}
+
+/* IMAGE */
+.image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* align image at bottom */
+  height: 100%;
+  padding-bottom: 0; /* remove extra bottom space */
+  margin-bottom: -53px; /* pull down past Bootstrap gutter */
+}
+.hero .col-md-6 {
+  display: flex; /* make both columns stretch equal height */
+  flex-direction: column;
+}
+.hero-img {
+  max-width: 420px;
+  height: auto;
+  margin-top: 100px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  transform: scale(1.15); /* enlarge by 15% */
+  transform-origin: bottom; /* grow from bottom up */
+}

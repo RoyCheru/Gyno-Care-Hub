@@ -1,0 +1,46 @@
+.mynav-bar {
+  background: none;
+  padding: 10px;
+}
+.nav-item a {
+  font-weight: 500;
+}
+.navbar {
+  padding: 1rem 0;
+  background-color: #fff; /* Clean white background */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* subtle shadow */
+  z-index: 1000;
+}
+
+.nav-item a {
+  font-weight: 500;
+  font-size: 17.5px;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover,
+.home-link {
+  color: #ff6f9c; /* A soft rose/pink shade */
+}
+
+.home-link {
+  color: rgb(255, 117, 163);
+}
+.signin {
+  background: #ff6f9c;
+  color: #fff;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 25px; /* Makes it fully rounded */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.signin:hover {
+  background: #ff4f88; /* Slightly darker pink on hover */
+  transform: translateY(-2px);
+}
+
+/* // Hero Section Styles */
+
