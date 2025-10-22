@@ -7,8 +7,8 @@
 }
 .navbar {
   padding: 1rem 0;
-  background-color: #fff; /* Clean white background */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* subtle shadow */
+  background-color: #fff; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   z-index: 1000;
 }
 
@@ -21,7 +21,7 @@
 
 .nav-item a:hover,
 .home-link {
-  color: #ff6f9c; /* A soft rose/pink shade */
+  color: #ff6f9c;
 }
 
 .home-link {
@@ -32,15 +32,14 @@
   color: #fff;
   padding: 8px 18px;
   border: none;
-  border-radius: 25px; /* Makes it fully rounded */
+  border-radius: 25px;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 .signin:hover {
-  background: #ff4f88; /* Slightly darker pink on hover */
+  background: #ff4f88; 
   transform: translateY(-2px);
 }
 
-/* // Hero Section Styles */
 

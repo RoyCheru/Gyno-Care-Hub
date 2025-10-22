@@ -28,7 +28,7 @@ function SelectDoctor({ bookingData, onNext, onDataChange }) {
 
     const handleDoctorSelect = (doctor) => {
       setSelectedDoctorId(doctor.id);
-      onDataChange({ doctor });
+      onDataChange("doctor", doctor);
     };
     if (loading) return <p className="text-center mt-5">Loading doctors...</p>;
     return (
@@ -38,25 +38,18 @@ function SelectDoctor({ bookingData, onNext, onDataChange }) {
           {doctors.map((doc) => (
             <div className="col-md-4 mb-3" key={doc.id}>
               <div
-                className={`card h-100 ${
+                className={`card doctor-card h-100 ${
                   selectedDoctorId === doc.id ? "border-primary" : ""
                 }`}
                 onClick={() => handleDoctorSelect(doc)}
                 style={{ cursor: "pointer" }}
               >
-                <img
-                  src={doc.image}
-                  className="card-img-top rounded-circle mx-auto"
-                  alt={doc.name}
-                  style={{
-                    width: "100px",
-                    height: "100px",
-                    objectFit: "cover",
-                  }}
-                />
-                <div className="card-body text-center">
+                <img src={doc.image} className="card-img-top" alt={doc.name} />
+                <div className="card-body">
                   <h5 className="card-title">{doc.name}</h5>
                   <p className="card-text">{doc.title}</p>
+                  <p className="card-text">Experience:{doc.experienceYears}+ years</p>
+                  <p className="card-text">{doc.currency} {doc.fee}</p>
                 </div>
               </div>
             </div>
