@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container mynav-bar">
-        {/* <!-- Logo (placeholder for now) --> */}
+        {/* <!-- Logo --> */}
         <Link className="navbar-brand d-flex align-items-center" to="/">
           {/* <img
             src=""
@@ -61,11 +61,11 @@ export default function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item me-3">
+            {/* <li className="nav-item me-3">
               <Link className="nav-link" to="/aboutus">
                 About us
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item me-3">
               <Link className="nav-link" to="/consultation">
                 Consultation

@@ -11,7 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import About from './components/About';
 import Services from './components/Services';
-import AboutUs from './components/AboutUs';
+//import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 import Signin from './components/Signin';
 import Signup from './components/Signup';
@@ -28,7 +28,6 @@ function App() {
         <Route path="/consultation" element={<Booking/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/services" element={<Services/>} />
-        <Route path="/aboutus" element={<AboutUs/>} />
       </Routes>
     </>
   )
