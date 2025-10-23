@@ -5,6 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Signup() {
   const navigate = useNavigate();
@@ -127,7 +128,7 @@ export default function Signup() {
           </div>
 
           
-          <div className="d-flex align-items-center my-3">
+          {/* <div className="d-flex align-items-center my-3">
             <hr className="flex-grow-1" />
             <span className="mx-2 text-muted small">Or continue with</span>
             <hr className="flex-grow-1" />
@@ -139,9 +140,10 @@ export default function Signup() {
               <FaGoogle />
               Sign up with Google
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -9,7 +9,7 @@ function About() {
   const navigate = useNavigate();
 
   const handleLearnMore = () => {
-    navigate("/learnmore");
+    navigate("/");
   };
 
   return (

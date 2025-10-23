@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { useState } from "react";
+import Footer from "./Footer";
 import axios from "axios";
 import Navbar from "./Navbar";
 
@@ -99,14 +100,14 @@ function Signin() {
                   onChange={handleChange}
                   name="password"
                 />
-                <div className="text-end mt-2">
+                {/* <div className="text-end mt-2">
                   <a
                     href="#"
                     className="text-decoration-none text-primary small"
                   >
                     Forgot Password?
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <button type="submit" className="btn btn-primary w-100 mt-3">
@@ -119,12 +120,12 @@ function Signin() {
                 <hr className="flex-grow-1" />
               </div>
               {/* Google Sign In */}
-              <div className="d-grid">
+              {/* <div className="d-grid">
                 <button className="btn btn-outline-dark d-flex align-items-center justify-content-center gap-2">
                   <FaGoogle />
                   Sign in with Google
                 </button>
-              </div>
+              </div> */}
             </form>
 
             <div className="text-center mt-4">
@@ -138,6 +139,7 @@ function Signin() {
             </div>
           </div>
         </div>
+        <Footer />
       </>
     );
   }

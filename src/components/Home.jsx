@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import About from "./About";
 import Services from "./Services";
+import Footer from "./Footer";
 import AboutUs from "./AboutUs";
 import { Route, Routes } from "react-router-dom";
 
@@ -15,6 +16,7 @@ function Home() {
       <Hero />
       <About />
       <Services />
+      <Footer />
     </>
   );
 }
