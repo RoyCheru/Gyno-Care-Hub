@@ -68,7 +68,7 @@ function Booking() {
     return (
       <>
         <Navbar />
-        <div>
+        <div> 
           {step === "selectDoctor" && (
             <SelectDoctor
               bookingData={bookingData}

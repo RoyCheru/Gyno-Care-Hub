@@ -37,7 +37,7 @@ export default function Navbar() {
           <span className="fw-bold">Gyno Care</span>
         </Link>
 
-        {/* <!-- Toggler for mobile --> */}
+
         <button
           className="navbar-toggler"
           type="button"
@@ -50,7 +50,6 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* <!-- Menu Items --> */}
         <div
           className="collapse navbar-collapse justify-content-center"
           id="navbarNav"

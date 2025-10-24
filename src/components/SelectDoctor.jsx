@@ -30,10 +30,10 @@ function SelectDoctor({ bookingData, onNext, onDataChange }) {
       setSelectedDoctorId(doctor.id);
       onDataChange("doctor", doctor);
     };
-    if (loading) return <p className="text-center mt-5">Loading doctors...</p>;
+    if (loading) <p className="text-center mt-5">Loading doctors...</p>;
     return (
       <div className="container mt-4">
-        <h3 className="mb-4 text-center">Select Your Doctor</h3>
+        <h3 className="mt-4 text-center">Select Your Doctor</h3>
         <div className="row">
           {doctors.map((doc) => (
             <div className="col-md-4 mb-3" key={doc.id}>
@@ -55,7 +55,7 @@ function SelectDoctor({ bookingData, onNext, onDataChange }) {
             </div>
           ))}
         </div>
-        <div className="justify-content-between mt-4">
+        <div className="justify-content-between mb-4">
           <button className="btn btn-secondary me-3" disabled>
             Back
           </button>

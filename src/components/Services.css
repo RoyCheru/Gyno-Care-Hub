@@ -1,5 +1,5 @@
 .services {
-  background: #fff7f9; /* very soft pink background */
+  background: #fff7f9; 
 }
 
 .services-title {
@@ -14,13 +14,13 @@
   color: #555;
 }
 .service-card {
-  border: 2px solid #f8c2d6; /* light pink border */
+  border: 2px solid #f8c2d6; 
   border-radius: 12px;
-  padding: 1.5rem; /* 🌸 extra internal spacing */
+  padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .service-card .card-body {
-  padding: 0; /* reset bootstrap default to avoid double-padding */
+  padding: 0;
 }
 
 .service-card:hover {
@@ -32,8 +32,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffe6ef; /* soft pink */
-  color: #d63384; /* pink text */
+  background-color: #ffe6ef;
+  color: #d63384;
   border-radius: 50%;
   width: 60px;
   height: 60px;

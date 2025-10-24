@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice34@gmail.com",
+      "password": "alicepass"
+    },
+    {
+      "id": "538b",
+      "name": "Roy Cheruiyot",
+      "email": "mercycheruto@gmail.com",
+      "password": "20252334"
+    },
+    {
+      "id": "5ac0",
+      "name": "Onyx Shama",
+      "email": "cheruiyotroy80@gmail.com",
+      "password": "weldon2334"
+    }
+  ],
+  "Doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Betty Muhonja",
+      "title": "Gynecologist",
+      "experienceYears": 10,
+      "fee": 8000,
+      "currency": "Ksh.",
+      "image": "/assets/images/doctors/doctor1.jpg",
+      "bio": "Board-certified gynecologist specializing in reproductive health.",
+      "telemedicine": true
+    },
+    {
+      "id": "2",
+      "name": "Dr. Winny Chepkemoi",
+      "title": "Obstetrician",
+      "experienceYears": 8,
+      "fee": 3000,
+      "currency": "Ksh.",
+      "image": "/assets/images/doctors/doctor2.jpg",
+      "bio": "High-risk pregnancy specialist and prenatal care expert.",
+      "telemedicine": true
+    },
+    {
+      "id": "3",
+      "name": "Dr. Sarah Njeri",
+      "title": "Reproductive Endocrinologist",
+      "experienceYears": 12,
+      "fee": 12000,
+      "currency": "Ksh.",
+      "image": "/assets/images/doctors/doctor3.jpg",
+      "bio": "Fertility specialist focusing on hormonal disorders and infertility treatments.",
+      "telemedicine": false
+    },
+    {
+      "id": "4",
+      "name": "Dr. Jane Wambui",
+      "title": "Gynecologic Oncologist",
+      "experienceYears": 15,
+      "fee": 15000,
+      "currency": "Ksh.",
+      "image": "/assets/images/doctors/doctor4.jpg",
+      "bio": "Expert in diagnosing and treating gynecologic cancers.",
+      "telemedicine": false
+    },
+    {
+      "id": "5",
+      "name": "Dr. Mary Achieng",
+      "title": "Maternal-Fetal Medicine Specialist",
+      "experienceYears": 9,
+      "fee": 10000,
+      "currency": "Ksh.",
+      "image": "/assets/images/doctors/doctor5.jpg",
+      "bio": "Specializes in managing complex pregnancies and fetal health.",
+      "telemedicine": true
+    },
+    {
+      "id": "6",
+      "name": "Dr. Lucy Kamau",
+      "title": "Pediatric Gynecologist",
+      "experienceYears": 7,
+      "fee": 7000,
+      "currency": "Ksh.",
+      "image": "/assets/images/doctors/doctor6.jpg",
+      "bio": "Focuses on gynecological care for children and adolescents.",
+      "telemedicine": false
+    }
+  ],
+  "bookings": [
+    {
+      "id": "563f",
+      "userId": "538b",
+      "doctorId": "4",
+      "concern": "period",
+      "date": "2025-10-04",
+      "time": "14:10"
+    },
+    {
+      "id": "8913",
+      "userId": "5ac0",
+      "doctorId": "2",
+      "concern": "pain in the lower abdomen",
+      "date": "2025-10-22",
+      "time": "11:50"
+    }
+  ]
+}
